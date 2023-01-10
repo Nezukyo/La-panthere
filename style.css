@@ -586,16 +586,17 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 110px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 46%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    right:41%;
 }
 
 a[data-lightbox]:hover img {
@@ -792,11 +793,6 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
-}
-
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -828,9 +824,20 @@ h4 {
     text-shadow: 1px 1px 2px black
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 767px) {
     .img-responsive {
-        width:60%;
+        width:70%;
+    }
+
+    a[data-lightbox]:hover::before {
+        right:44%;
+    }
+
+    .adjust {
+        width: 76%;
+        margin: auto;
+        overflow-wrap:break-word;
+        margin-bottom:15px;
     }
 }
 
