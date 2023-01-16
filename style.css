@@ -527,7 +527,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 
 .icon-lg {
@@ -844,6 +844,10 @@ h4 {
         margin: auto;
         overflow-wrap:break-word;
         margin-bottom:15px;
+    }
+
+    .social {
+        line-height: 4;
     }
 }
 
