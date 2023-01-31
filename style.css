@@ -834,6 +834,11 @@ h4 {
         width:70%;
     }
 
+    .texture-paper::before {
+        background: url("img/texture-paper-mobile.webp");
+        background-size: 280px 280px;
+    }
+
     a[data-lightbox]:hover::before {
         right:44%;
     }
@@ -894,7 +899,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation-mobile.webp");
 }
 
 @media (max-width: 1024px) {
