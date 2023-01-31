@@ -834,9 +834,12 @@ h4 {
         width:70%;
     }
 
-    .texture-paper::before {
-        background: url("img/texture-paper-mobile.webp");
-        background-size: 280px 280px;
+    .bg-banniere {
+        background-image: url("img/agence-la-panthere-mobile.webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation-mobile.webp");
     }
 
     a[data-lightbox]:hover::before {
@@ -899,7 +902,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-mobile.webp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
